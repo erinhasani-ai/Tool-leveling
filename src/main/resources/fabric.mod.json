@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "Tool-Leveling",
+  "version": "${0.01}",
+  "name": "Tool-Leveling",
+  "description": "Adds a block that lets you overlevel and apply any enchantment for a configurable XP cost.",
+  "authors": ["Erin Hasani"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ai.Tool-Leveling.Tool-LevelingMod"],
+    "client": ["com.ai.Tool-Leveling.client.Tool-LevelingClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "cloth-config2": "*"
+  }
+}
